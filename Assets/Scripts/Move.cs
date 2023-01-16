@@ -7,6 +7,7 @@ public class Move : MonoBehaviour{
     public Transform player;
     [SerializeField]
     private float speed = 10f;
+    
       void FixedUpdate() {
         onMouseDrag();
      }  

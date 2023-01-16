@@ -11,6 +11,7 @@ public class Restart : MonoBehaviour
              SceneManager.LoadScene ("SampleScene");
         }
      }
+     
 
     
     

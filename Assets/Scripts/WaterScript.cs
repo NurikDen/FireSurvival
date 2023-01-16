@@ -10,7 +10,7 @@ public class WaterScript : MonoBehaviour{
     IEnumerator Spawn () {
         while (!Player.lose) {
             Instantiate (water, new Vector2 (Random.Range (-2.5f,2.5f),5.9f), Quaternion.identity);
-            yield return new WaitForSeconds (2f);
+            yield return new WaitForSeconds (0.5f);
         }
     } 
 }

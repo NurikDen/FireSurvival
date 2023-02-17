@@ -1,6 +1,6 @@
-# FireSurvive
+# FireSurvival
  
-"FireSurvive" is my first game. In this game you should help fire to survive in rain.Lightnings and sparks will help you.
+"FireSurvival" is my first game. In this game you should help fire to survive in rain.Lightnings and sparks will help you.
 
 #30.12.2022 It is the first alpha version of my game. It is very simple game. Of course, I will update this game.
 Первая альфа версия моей игры. Это очень простая игра. Конечно, я буду обновлять эту игру.

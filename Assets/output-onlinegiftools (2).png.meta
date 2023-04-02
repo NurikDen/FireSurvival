@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: 294b828cc90193e489a780d936ec5037
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_4
+      rect:
+        serializedVersion: 2
+        x: 10404
+        y: 0
+        width: 359
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3c6c420309bb3498cd027342f6e2d4
+      internalID: 278451887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_8
+      rect:
+        serializedVersion: 2
+        x: 6167
+        y: 0
+        width: 368
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd469a43884057340a4c312d45133892
+      internalID: -919366053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_9
+      rect:
+        serializedVersion: 2
+        x: 6636
+        y: 0
+        width: 368
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f49ca58885f65546a3a22f4080ec1ee
+      internalID: -934286809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_13
+      rect:
+        serializedVersion: 2
+        x: 10684
+        y: 434
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed8d389ed18fc848b995fc051a49ca3
+      internalID: -950185352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_16
+      rect:
+        serializedVersion: 2
+        x: 11158
+        y: 435
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0883af982ba87544599f30e3efe2d88a
+      internalID: 1094686445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_17
+      rect:
+        serializedVersion: 2
+        x: 5746
+        y: 424
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96e7deebe9ebe24480c13d81768a26a
+      internalID: -2073733288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_22
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 0
+        width: 367
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff219ae83769e34791c97786e93fe34
+      internalID: -1323215780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_23
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 0
+        width: 368
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40a3461c89d4884cb09fefaabcaf007
+      internalID: 797871561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_24
+      rect:
+        serializedVersion: 2
+        x: 5699
+        y: 3
+        width: 369
+        height: 449
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97b77fca704cc843ab9feb746be03cb
+      internalID: 1953168071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_25
+      rect:
+        serializedVersion: 2
+        x: 5746
+        y: 417
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d2682e57b2f9347a8b2a45047df80a
+      internalID: -1911947072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_27
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 1
+        width: 364
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d853ee6da8e5b42b09472b0a17f3c9
+      internalID: 955519076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_28
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 1
+        width: 367
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcc229056e487e489ae42ec392d4795
+      internalID: 1313221484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_29
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 1
+        width: 366
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027a1e550a5b9b541bcc58c9a80d79eb
+      internalID: -498640905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_30
+      rect:
+        serializedVersion: 2
+        x: 7105
+        y: 1
+        width: 368
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a4fb315ad50f341a71baf7fb7bb3eb
+      internalID: 36345266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_31
+      rect:
+        serializedVersion: 2
+        x: 7575
+        y: 1
+        width: 369
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680ce2d124f780a4b81a4a3ffa10041a
+      internalID: -227904636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_33
+      rect:
+        serializedVersion: 2
+        x: 10682
+        y: 406
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe59ee116442b04ab95d12dcea3ec6c
+      internalID: -360950459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_34
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 358
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df524e23ea644874d837b992f6dbbf8f
+      internalID: 955060641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_35
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 0
+        width: 356
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a7a9b26530e9746a21253b440983b8
+      internalID: 1797646965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_36
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 0
+        width: 356
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec633425eb475a740bf38b3992012efe
+      internalID: 76513169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_37
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 0
+        width: 358
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005230c50e9157f4e85ec586d03aa25c
+      internalID: -1357861861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_38
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 1
+        width: 359
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130f9d9737f1d1b4fa6bbdba46d2a5d4
+      internalID: 1200313889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_39
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 1
+        width: 361
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9305cf20e06be4843815ed23c0ed45c3
+      internalID: -127023248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_40
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 1
+        width: 362
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff508cd839a5504dbe0e3872f4fcafb
+      internalID: -1712459101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_41
+      rect:
+        serializedVersion: 2
+        x: 8044
+        y: 1
+        width: 369
+        height: 463
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f1e96da678eb34f98debf5db75d9c7
+      internalID: -1310315252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_42
+      rect:
+        serializedVersion: 2
+        x: 8516
+        y: 1
+        width: 368
+        height: 472
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e968ccfb126664eab6073a22f1e20d
+      internalID: -541554193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_43
+      rect:
+        serializedVersion: 2
+        x: 8989
+        y: 1
+        width: 365
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1863135c4d1c2f94b86a64080da2c6d1
+      internalID: -1233005466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_44
+      rect:
+        serializedVersion: 2
+        x: 9461
+        y: 1
+        width: 365
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c8a3cd857799648bb9108f4ea25d15
+      internalID: 583693097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_45
+      rect:
+        serializedVersion: 2
+        x: 9934
+        y: 3
+        width: 360
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84feac6c476618340a225e3b900a04b5
+      internalID: 32905237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_46
+      rect:
+        serializedVersion: 2
+        x: 10694
+        y: 382
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b3cbe715ab5434190991d9b78a257a
+      internalID: 1337504781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools (2)_47
+      rect:
+        serializedVersion: 2
+        x: 10876
+        y: 5
+        width: 356
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b808740560d804e41b3f754c1b70b932
+      internalID: -128202939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      output-onlinegiftools (2)_10: -1099862801
+      output-onlinegiftools (2)_20: 952657337
+      output-onlinegiftools (2)_46: 1337504781
+      output-onlinegiftools (2)_4: 278451887
+      output-onlinegiftools (2)_7: -369161969
+      output-onlinegiftools (2)_35: 1797646965
+      output-onlinegiftools (2)_31: -227904636
+      output-onlinegiftools (2)_44: 583693097
+      output-onlinegiftools (2)_5: -1122689452
+      output-onlinegiftools (2)_19: 2075619413
+      output-onlinegiftools (2)_3: -2143445451
+      output-onlinegiftools (2)_14: -1253506296
+      output-onlinegiftools (2)_24: 1953168071
+      output-onlinegiftools (2)_26: -2069245307
+      output-onlinegiftools (2)_25: -1911947072
+      output-onlinegiftools (2)_41: -1310315252
+      output-onlinegiftools (2)_39: -127023248
+      output-onlinegiftools (2)_40: -1712459101
+      output-onlinegiftools (2)_11: 280271655
+      output-onlinegiftools (2)_37: -1357861861
+      output-onlinegiftools (2)_45: 32905237
+      output-onlinegiftools (2)_34: 955060641
+      output-onlinegiftools (2)_16: 1094686445
+      output-onlinegiftools (2)_8: -919366053
+      output-onlinegiftools (2)_18: 458507467
+      output-onlinegiftools (2)_21: -1930707752
+      output-onlinegiftools (2)_29: -498640905
+      output-onlinegiftools (2)_33: -360950459
+      output-onlinegiftools (2)_23: 797871561
+      output-onlinegiftools (2)_47: -128202939
+      output-onlinegiftools (2)_32: -2103150398
+      output-onlinegiftools (2)_38: 1200313889
+      output-onlinegiftools (2)_2: 1356793027
+      output-onlinegiftools (2)_43: -1233005466
+      output-onlinegiftools (2)_12: 1790963586
+      output-onlinegiftools (2)_30: 36345266
+      output-onlinegiftools (2)_42: -541554193
+      output-onlinegiftools (2)_0: 443153923
+      output-onlinegiftools (2)_27: 955519076
+      output-onlinegiftools (2)_15: 1860095088
+      output-onlinegiftools (2)_17: -2073733288
+      output-onlinegiftools (2)_22: -1323215780
+      output-onlinegiftools (2)_9: -934286809
+      output-onlinegiftools (2)_6: 1540463246
+      output-onlinegiftools (2)_1: 1914110712
+      output-onlinegiftools (2)_13: -950185352
+      output-onlinegiftools (2)_28: 1313221484
+      output-onlinegiftools (2)_36: 76513169
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

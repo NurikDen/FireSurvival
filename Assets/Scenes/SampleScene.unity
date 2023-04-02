@@ -197,6 +197,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49c0a1c96e69ccf4bab716f8228c49da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  space: 1
+  moveSpeed: 3
+  turnSpeed: 3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,7 +762,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -839,7 +843,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1634420792
 RectTransform:
@@ -918,7 +922,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: ab665073684377c4ebe414f9db5b1057, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1053,15 +1057,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1797500797, guid: 34000505f8e70fc4bbce68ee4e3a3f09, type: 3}
+  m_Sprite: {fileID: 1469006398, guid: 56221fa55a6c35a41abafca094647837, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3, y: 7}
+  m_Size: {x: 2.84, y: 4.5768805}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1967449601
@@ -1072,8 +1076,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967449599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: -2.51, z: 0}
-  m_LocalScale: {x: 0.6991, y: 0.8593, z: 5.7778416}
+  m_LocalPosition: {x: -0.03, y: -3.23, z: 0}
+  m_LocalScale: {x: 0.2964184, y: 0.5752154, z: 5.7778416}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2071462770}
@@ -1128,8 +1132,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00040259957, y: -0.64214027}
-  m_Size: {x: 0.8040169, y: 1.3107998}
+  m_Offset: {x: 0.04734193, y: -0.39610463}
+  m_Size: {x: 2.2363527, y: 1.8028705}
   m_Direction: 0
 --- !u!95 &1967449607
 Animator:
@@ -1211,7 +1215,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1308,7 +1312,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

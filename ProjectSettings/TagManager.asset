@@ -7,7 +7,7 @@ TagManager:
   - water
   - thunder
   - ground
-  - iskra
+  - spark
   layers:
   - Default
   - TransparentFX

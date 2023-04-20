@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class firebuild : MonoBehaviour
+public class Firebuild : MonoBehaviour
 {
     
     void Start()

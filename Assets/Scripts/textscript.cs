@@ -5,7 +5,7 @@ using UnityEngine;
 public class Textscript : MonoBehaviour
 {
     [SerializeField]private TextMesh timertext; 
-    private int c = 0;
+    public static int c;
     
     void Start(){
         StartCoroutine(textscriptt());

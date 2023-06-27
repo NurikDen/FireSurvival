@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class WaterScript : MonoBehaviour{
     public GameObject water;
-
+    private float secondtime = 0.358f;
     private List<GameObject> _tmpWaters;
+    private int counter;
     
     void Start()
     {
         _tmpWaters = new List<GameObject>();
         StartCoroutine(Spawn());
+
     }
 
     IEnumerator Spawn () {
@@ -20,13 +22,22 @@ public class WaterScript : MonoBehaviour{
                 yield return null;
             }
             else
-            {
-                var tmpWater = Instantiate (water, new Vector2 (Random.Range (-2.5f,2.5f),5.9f), Quaternion.identity);
+            { 
+                var tmpWater = Instantiate (water, new Vector2 (Random.Range (-3f,3f),5.9f), Quaternion.identity);
                 _tmpWaters.Add(tmpWater);
-                yield return new WaitForSeconds (0.358f);
+                yield return new WaitForSeconds (secondtime);
+                StartCoroutine(IncrementCounter());
+    
             }
         }
     }
+IEnumerator IncrementCounter() {
+            yield return new WaitForSeconds(50f);
+                secondtime = 0.05f;
+            yield return new WaitForSeconds(5f);
+            secondtime = 0.358f;
+        }
+
 
      void FixedUpdate()
      {

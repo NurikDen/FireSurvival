@@ -17,7 +17,7 @@ public class GenerateFly : MonoBehaviour
 
     void perespawn()
     {
-        if (thunder.transform.localScale.y >= 8.97f && thunder.transform.localScale.y <= 9f)
+        if (thunder.transform.localScale.y >= 8.96f && thunder.transform.localScale.y <= 9.1f)
         {
             var tmpSpark = Instantiate(spark, new Vector2(thunder.transform.position.x, -4f), Quaternion.identity);
             tmpSpark.transform.localScale = Vector3.one / 2.5f;

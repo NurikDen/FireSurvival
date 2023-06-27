@@ -6,7 +6,8 @@ public class Play : MonoBehaviour
 {
    public GameObject textObjects; 
    public GameObject nameText;
-   public GameObject firer;
+   //public GameObject shopbutton;
+   // public GameObject tablebutton;
     private void OnMouseDown()
     {
         Player.onpause = false;
@@ -14,8 +15,8 @@ public class Play : MonoBehaviour
         {
             textObjects.SetActive(true);
             nameText.SetActive(false);
-            firer.SetActive(false);
-           
+        //    shopbutton.SetActive(false);
+        //    tablebutton.SetActive(false);
         }
     }
 }

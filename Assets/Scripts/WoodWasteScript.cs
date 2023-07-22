@@ -22,6 +22,7 @@ public class WoodWasteScript : MonoBehaviour{
             }
             else
             {
+                yield return new WaitForSeconds (Random.Range (5f,9f));
                 x=5f;
                 var tmpWastes = Instantiate (waste, new Vector2 (x,3f), Quaternion.identity);
                 _tmpWaste.Add(tmpWastes);
@@ -29,7 +30,7 @@ public class WoodWasteScript : MonoBehaviour{
                 x=-5f;
                 var TmpWastes = Instantiate (waste, new Vector2 (x,3f), Quaternion.identity);
                 _tmpWaste.Add(TmpWastes);
-                yield return new WaitForSeconds (Random.Range (5f,9f));
+                
             }
         }
     }

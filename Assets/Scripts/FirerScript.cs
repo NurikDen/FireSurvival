@@ -22,6 +22,7 @@ public class FirerScript : MonoBehaviour{
             }
             else
             {
+                yield return new WaitForSeconds (Random.Range (10f,20f));
                  x=5f;
                 var tmpFires = Instantiate (firerright, new Vector2 (x,-2.5f), Quaternion.identity);
                 _tmpFirers.Add(tmpFires);
@@ -29,7 +30,6 @@ public class FirerScript : MonoBehaviour{
                 x=-5f;
                 var TmpFires = Instantiate (firerleft, new Vector2 (x,-2.5f), Quaternion.identity);
                 _tmpFirers.Add(TmpFires);
-                yield return new WaitForSeconds (Random.Range (10f,20f));
             }
         }
     }

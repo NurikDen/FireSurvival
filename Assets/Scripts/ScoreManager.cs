@@ -8,9 +8,9 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] TextMesh HighScoreText;
     [SerializeField] TextMesh ScoreText;
   
-
+public static float second = 1f;
     public static float score = 0;
-    int highscore; 
+    public static int highscore; 
     void Start()
     { 
         score = 0;
@@ -18,13 +18,13 @@ public class ScoreManager : MonoBehaviour
     }
      IEnumerator textscript () {
       while (true) {
-          if (Player.lose || Player.onpause)
+          if (Player.lose  || Player.onpause)
           {
               yield return null;
           }
           else
           {
-              score++;
+              score+=second;
               yield return new WaitForSeconds(1f);
               ScoreText.text = score.ToString();
           }

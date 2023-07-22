@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnglandOpen : MonoBehaviour
+{
+    public  GameObject checking;
+    public static bool englandTown = false;
+     private void OnMouseDown()
+    {
+       checking.transform.position = new Vector3(0,-3.5f,0);
+       ScoreManager.second = 50f;
+       TokyoOpen.tokyoTown = false;
+       ChinaOpen.chinaTown = false;
+       IndiaOpen.indiaTown= false;
+       RussiaOpen.russiaTown=false;
+       ItalyOpen.italyTown=false;
+       SpainOpen.spainTown=false;
+       FranceOpen.franceTown=false;
+       EnglandOpen.englandTown=true;
+       USAOpen.usaTown = false;
+    
+    }
+}

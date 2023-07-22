@@ -55,11 +55,11 @@ public class Player : MonoBehaviour
         
         }
          else if (other.gameObject.tag == "firer"){
-             firer.transform.localScale = new Vector3(firer.transform.localScale.x * 0, firer.transform.localScale.y * 0,
-                firer.transform.localScale.z * 0);
+             firer.transform.localScale = new Vector3(firer.transform.localScale.x / 3, firer.transform.localScale.y / 3,
+                firer.transform.localScale.z / 3);
 
-            transform.localScale = new Vector3(transform.localScale.x * 0, transform.localScale.y * 0,
-                transform.localScale.z * 0);
+            transform.localScale = new Vector3(transform.localScale.x / 3, transform.localScale.y / 3,
+                transform.localScale.z / 3);
                 if (transform.localScale.x <= 0.2f && transform.localScale.y <= 0.2f)
             {
                 lose = true;

@@ -15,12 +15,13 @@ public class WasteScript : MonoBehaviour{
 
     IEnumerator Spawn () {
         while (true) {
-            if (Player.lose || Player.onpause)
+            if (Player.lose==true || Player.onpause==true)
             {
                 yield return null;
             }
             else
             {
+
                 var tmpWastes = Instantiate (waste, new Vector2 (-5f,3f), Quaternion.identity);
                 _tmpWaste.Add(tmpWastes);
                 yield return new WaitForSeconds (Random.Range (5f,10f));

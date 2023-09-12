@@ -8,8 +8,9 @@ public class BenzinDown : MonoBehaviour
 public GameObject gameObject;
 
     void Update() {
+         if(Player.lose == false && Player.onpause == false){
     transform.position -= new Vector3(0,fallspeed * Time.deltaTime ,0);
-
+         }
        
     }
     

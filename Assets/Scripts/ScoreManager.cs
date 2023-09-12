@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SocialPlatforms;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -13,20 +14,20 @@ public static float second = 1f;
     public static int highscore; 
     void Start()
     { 
-        score = 0;
        StartCoroutine(textscript());
     }
      IEnumerator textscript () {
       while (true) {
-          if (Player.lose  || Player.onpause)
+          if (Player.onpause)
           {
               yield return null;
           }
-          else
+              else
           {
               score+=second;
               yield return new WaitForSeconds(1f);
               ScoreText.text = score.ToString();
+              
           }
       }
      
@@ -34,11 +35,15 @@ public static float second = 1f;
     
     void Update()
     {
+        if(Player.lose==true){
+                score = 0;
+              }
         highscore = (int)score;
         ScoreText.text = highscore.ToString();
         if (PlayerPrefs.GetInt("score") <= highscore)
             PlayerPrefs.SetInt("score", highscore);
-
         HighScoreText.text = PlayerPrefs.GetInt("score")+" Joules";
     }
+    
+
 }

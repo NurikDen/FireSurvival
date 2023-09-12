@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class ItalyOpen : MonoBehaviour
 {
-    public  GameObject checking;
     public static bool italyTown = false;
      private void OnMouseDown()
     {
-       checking.transform.position = new Vector3(0,-0.5f,0);
        ScoreManager.second = 15f;
        TokyoOpen.tokyoTown = false;
        ChinaOpen.chinaTown = false;

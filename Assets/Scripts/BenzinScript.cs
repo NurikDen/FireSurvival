@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BenzinScript : MonoBehaviour{
     public GameObject benzin;
-    private float secondtime = 5f;
+    public static float secondtime = 3f;
     private List<GameObject> _tmpBenzins;
     
     void Start()
@@ -15,7 +15,7 @@ public class BenzinScript : MonoBehaviour{
 
     IEnumerator Spawn () {
         while (true) {
-            if (Player.lose || Player.onpause)
+            if (Player.lose==true || Player.onpause==true)
             {
                 yield return null;
             }
@@ -24,8 +24,6 @@ public class BenzinScript : MonoBehaviour{
                 yield return new WaitForSeconds (secondtime);
                 var tmpBenzin = Instantiate (benzin, new Vector2 (Random.Range (-2.5f,2.5f),5.9f), Quaternion.identity);
                 _tmpBenzins.Add(tmpBenzin);
-                secondtime = 3f;
-
             }
         }
     }

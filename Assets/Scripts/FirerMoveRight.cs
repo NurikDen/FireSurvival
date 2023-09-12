@@ -21,7 +21,9 @@ private float speed = 4.0f; // Скорость движения объекта
              endXPos=2.5f;
         if (movingForward)
         {
+             if(Player.lose == false && Player.onpause == false){
             o.transform.Translate(Vector3.left * speed * Time.deltaTime);
+             }
             if (o.transform.position.x <= endXPos)
             {
                 movingForward = false;
@@ -30,7 +32,9 @@ private float speed = 4.0f; // Скорость движения объекта
         }
         else
         {
+             if(Player.lose == false && Player.onpause == false){
             o.transform.Translate(Vector3.right * speed * Time.deltaTime);
+             }
             if (o.transform.position.x >= startXPos+10)
             {
                 movingForward = true;

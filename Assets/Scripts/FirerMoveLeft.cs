@@ -22,7 +22,9 @@ public class FirerMoveLeft : MonoBehaviour
             endXPos=-2.5f;
         if (movingForward)
         {
+             if(Player.lose == false && Player.onpause == false){
             o.transform.Translate(Vector3.right * speed * Time.deltaTime);
+             }
             if (o.transform.position.x >= endXPos)
             {
                 movingForward = false;
@@ -31,7 +33,9 @@ public class FirerMoveLeft : MonoBehaviour
         }
         else
         {
+             if(Player.lose == false && Player.onpause == false){
             o.transform.Translate(Vector3.left * speed * Time.deltaTime);
+             }
             if (o.transform.position.x <= startXPos-10)
             {
                 movingForward = true;

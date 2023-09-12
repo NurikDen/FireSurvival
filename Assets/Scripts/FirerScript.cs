@@ -16,7 +16,7 @@ public class FirerScript : MonoBehaviour{
 
     IEnumerator Spawn () {
         while (true) {
-            if (Player.lose || Player.onpause)
+            if (Player.lose==true || Player.onpause==true)
             {
                 yield return null;
             }

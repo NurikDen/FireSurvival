@@ -8,7 +8,10 @@ public class Down : MonoBehaviour
 public GameObject gameObject;
 
     void Update() {
-    transform.position -= new Vector3(0,fallspeed * Time.deltaTime ,0);
+        if(Player.lose == false && Player.onpause == false){
+ transform.position -= new Vector3(0,fallspeed * Time.deltaTime ,0);
+        }
+   
     }
     void OnTriggerEnter2D(Collider2D other)
     {

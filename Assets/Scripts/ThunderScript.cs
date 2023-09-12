@@ -6,6 +6,7 @@ public class ThunderScript : MonoBehaviour
 {
     public GameObject thunder;
     private List<GameObject> _tmpThunders;
+    public static float secondtime = 5f;
 
     void Start()
     {
@@ -17,7 +18,7 @@ public class ThunderScript : MonoBehaviour
     {
         while (true)
         {
-            if (Player.lose || Player.onpause)
+            if (Player.lose==true  || Player.onpause==true)
             {
                 yield return null;
             }
@@ -25,7 +26,7 @@ public class ThunderScript : MonoBehaviour
             {
                 var tmpThunder = Instantiate(thunder, new Vector2(Random.Range(-3f, 3f), 9f), Quaternion.identity);
                 _tmpThunders.Add(tmpThunder);
-                yield return new WaitForSeconds(5f);
+                yield return new WaitForSeconds(secondtime);
                 var tmpThunders = new List<GameObject>(_tmpThunders);
                 for (int i = 0; i < tmpThunders.Count; i++)
                 {

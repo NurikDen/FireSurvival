@@ -9,13 +9,17 @@ public GameObject gameObject;
     void Update() {
           if(WoodWasteScript.x == 5f && gameObject.transform.position.y > -3.5f){
    fallspeed= Random.Range(1f,3.5f);
+    if(Player.lose == false && Player.onpause == false){
   transform.position -= new Vector3(fallspeed * Time.deltaTime, fallspeed* Time.deltaTime,0);
+    }
   transform.Rotate(0, 0, 0.5f);
   StartCoroutine(Fly());
       }
       else if (WoodWasteScript.x==-5f && gameObject.transform.position.y > -3.5f){
          fallspeed= Random.Range(1f,3.5f);
+          if(Player.lose == false && Player.onpause == false){
   transform.position -= new Vector3(-fallspeed * Time.deltaTime, fallspeed* Time.deltaTime,0);
+          }
   transform.Rotate(0, 0, -0.5f);
   StartCoroutine(Fly());
       }

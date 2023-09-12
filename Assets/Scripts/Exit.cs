@@ -7,6 +7,6 @@ public class Exit : MonoBehaviour
 {
     private void OnMouseDown()
     {
-         SceneManager.LoadScene ("SampleScene");
+         SceneManager.LoadScene ("SampleScene",LoadSceneMode.Single);
     }
 }

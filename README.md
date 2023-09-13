@@ -14,4 +14,4 @@
 
 #27.06.2023 The third beta version. We totally updated gameplay of our game, added new enemies and helpers for fire.Besides, we made optimization (takes 9 MB less internal memory). Третья бета версия. Мы полностью обновили геймплей нашей игры, добавили новых врагов и помощников для огня. Кроме того, мы провели оптимизацию (занимает на 9 МБ меньше встроенной памяти).
 
-13.09.2023 First realise version. We added shop and record table. Первая релизная версия. Мы добавили магазин и таблицу рекордов.
+#13.09.2023 First realise version. We added shop and record table. Первая релизная версия. Мы добавили магазин и таблицу рекордов.

@@ -22,7 +22,7 @@
 ///
 
 
-public static class GPS
+public static class GPGSIds
 {
         public const string leaderboard_the_best_players = "CgkIkarQgbETEAIQAQ"; // <GPGSID>
 

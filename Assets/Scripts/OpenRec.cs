@@ -7,33 +7,19 @@ using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
 using System;
 public class OpenRec : MonoBehaviour
-{
-      #region PUBLIC_VAR
+{  
     public const string leaderboard="CgkIkarQgbETEAIQAQ";
-    #endregion
-    #region DEFAULT_UNITY_CALLBACKS
- void OnMouseDown() {
-    LogIn ();
-    OnShowLeaderBoard ();
-    
-}
 
+    void OnMouseDown(){
+        OnAddScoreToLeaderBorad ();
+        OnShowLeaderBoard ();
+    }
     void Start ()
     {
-        // recommended for debugging:
         PlayGamesPlatform.DebugLogEnabled = true;
-        
-        // Activate the Google Play Games platform
         PlayGamesPlatform.Activate ();
     }
-void Update(){
-    OnAddScoreToLeaderBorad ();
-}
-    #endregion
-    #region BUTTON_CALLBACKS
-    /// <summary>
-    /// Login In Into Your Google+ Account
-    /// </summary>
+
     public void LogIn ()
     {
         Social.localUser.Authenticate ((bool success) =>
@@ -45,21 +31,14 @@ void Update(){
             }
         });
     }
-    /// <summary>
-    /// Shows All Available Leaderborad
-    /// </summary>
     public void OnShowLeaderBoard ()
     {
-//        Social.ShowLeaderboardUI (); // Show all leaderboard
-        ((PlayGamesPlatform)Social.Active).ShowLeaderboardUI (leaderboard); // Show current (Active) leaderboard
+         PlayGamesPlatform.Instance.ShowLeaderboardUI("CgkIkarQgbETEAIQAQ");
     }
-    /// <summary>
-    /// Adds Score To leader board
-    /// </summary>
     public void OnAddScoreToLeaderBorad ()
     {
         if (Social.localUser.authenticated) {
-            Social.ReportScore (100, leaderboard, (bool success) =>
+            Social.ReportScore (ScoreManager.highscore, leaderboard, (bool success) =>
             {
                 if (success) {
                     Debug.Log ("Update Score Success");
@@ -70,9 +49,5 @@ void Update(){
             });
         }
     }
-    /// <summary>
-    /// On Logout of your Google+ Account
-    /// </summary>
-    #endregion
 }
 

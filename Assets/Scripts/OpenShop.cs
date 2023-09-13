@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class OpenShop : MonoBehaviour
 {
-    private void OnMouseDown()
-    {
+     void OnMouseDown() {
          SceneManager.LoadScene ("Shop");
-    }
+     }
+
 }
